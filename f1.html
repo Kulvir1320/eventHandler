@@ -1,0 +1,13 @@
+<button id="mybutton">Show sum</button>
+<div id="output"></div>
+
+<script>
+function showSum(a,b){
+	var sum = a+b;
+	document.getElementById('output').innerHTML = 'Sum: '+sum;
+}
+document.getElementById('mybutton').onclick = function(){
+	showSum(3,5);
+};
+</script>
+
